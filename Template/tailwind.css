@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@tailwind base;
+@talwind components;
+.html{
+    @apply font-serif;
+}
+.sidebar{
+    @apply  w-60 h-screen bg-black text-white flex flex-col opacity-90 text-2xl;
+}
+.sidebar-li{
+   @apply flex items-center hover:bg-white hover:text-blue-800 rounded-lg cursor-pointer p-2 my-3 text-lg;
+}
+@tailwind utilities;
